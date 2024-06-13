@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>CGetIPDlg</class>
+    <widget class="QDialog" name="CGetIPDlg">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>350</width>
+                <height>170</height>
+            </rect>
+        </property>
+        <property name="minimumSize">
+            <size>
+                <width>350</width>
+                <height>170</height>
+            </size>
+        </property>
+        <property name="maximumSize">
+            <size>
+                <width>350</width>
+                <height>170</height>
+            </size>
+        </property>
+        <property name="baseSize">
+            <size>
+                <width>350</width>
+                <height>170</height>
+            </size>
+        </property>
+        <property name="windowTitle">
+            <string>Input IP Setcion</string>
+        </property>
+        <widget class="QLabel" name="StartIP">
+            <property name="geometry">
+                <rect>
+                    <x>20</x>
+                    <y>30</y>
+                    <width>151</width>
+                    <height>21</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Starting IP Address</string>
+            </property>
+        </widget>
+        <widget class="QLabel" name="EndIP">
+            <property name="geometry">
+                <rect>
+                    <x>20</x>
+                    <y>80</y>
+                    <width>151</width>
+                    <height>21</height>
+                </rect>
+            </property>
+            <property name="layoutDirection">
+                <enum>Qt::LeftToRight</enum>
+            </property>
+            <property name="text">
+                <string>End IP Address</string>
+            </property>
+        </widget>
+        <widget class="QPushButton" name="GetIP_OK">
+            <property name="geometry">
+                <rect>
+                    <x>50</x>
+                    <y>130</y>
+                    <width>75</width>
+                    <height>23</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>OK</string>
+            </property>
+        </widget>
+        <widget class="QPushButton" name="GetIP_Cancel">
+            <property name="geometry">
+                <rect>
+                    <x>210</x>
+                    <y>130</y>
+                    <width>75</width>
+                    <height>23</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>Cancel</string>
+            </property>
+        </widget>
+        <widget class="QLineEdit" name="StartIP_Edit">
+            <property name="geometry">
+                <rect>
+                    <x>180</x>
+                    <y>30</y>
+                    <width>151</width>
+                    <height>20</height>
+                </rect>
+            </property>
+        </widget>
+        <widget class="QLineEdit" name="EndIP_Edit">
+            <property name="geometry">
+                <rect>
+                    <x>180</x>
+                    <y>80</y>
+                    <width>151</width>
+                    <height>20</height>
+                </rect>
+            </property>
+        </widget>
+    </widget>
+    <layoutdefault spacing="6" margin="11"/>
+    <resources/>
+    <connections/>
+</ui>
